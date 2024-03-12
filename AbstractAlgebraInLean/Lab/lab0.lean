@@ -295,5 +295,3 @@ example : min a b + c ≤ min (a + c) (b + c) := by
   apply min_le_left--证明min a b + c ≤ b + c
   apply add_le_add_right
   apply min_le_right
-
-
